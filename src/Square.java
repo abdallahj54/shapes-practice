@@ -42,7 +42,6 @@ public class Square implements Shape{
     }
 
 //Override toString() method here
-
     @Override
     public String toString() {
         return "Square{" +

@@ -1,5 +1,3 @@
-
-
 /**
  *
  * FIRST, COMPLETE Shape interface
@@ -53,8 +51,7 @@ public class Circle implements Shape{
         return 2 * pi * radius;
     }
 
-//Override toString() method here
-
+    //Override toString() method here
     @Override
     public String toString() {
         return "Circle{" +

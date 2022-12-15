@@ -12,6 +12,4 @@ public interface Shape {
 
     //Create an abstract method called as perimeter and returns a double
     double getPerimeter();
-
-
 }

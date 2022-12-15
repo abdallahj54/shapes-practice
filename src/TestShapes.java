@@ -48,13 +48,10 @@ public class TestShapes {
         System.out.println(square + "\nArea of the Square is = " + square.getArea()
                 + "\nPerimeter of the Square is = " + square.getPerimeter() + "\n");
 
-
         if (circle.getArea() > rectangle.getArea() && circle.getArea() > square.getArea())
             System.out.println("Circle has the largest area as " + circle.getArea());
         else if (rectangle.getArea() > circle.getArea() && rectangle.getArea() > square.getArea())
             System.out.println("Rectangle has the largest area as " + rectangle.getArea());
         else System.out.println("Square has the largest area as " + square.getArea());
-
-
     }
 }

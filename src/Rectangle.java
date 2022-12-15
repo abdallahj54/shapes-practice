@@ -2,8 +2,6 @@
 //implement Shape interface and provide abstract method implementation
 public class Rectangle implements Shape{
 
-
-
     private double width;
     private double height;
 
@@ -20,7 +18,6 @@ public class Rectangle implements Shape{
     }
 
 
-
     @Override
     public double getArea() {
         return height * width;
@@ -32,7 +29,6 @@ public class Rectangle implements Shape{
     }
 
 //Override toString() method here
-
     @Override
     public String toString() {
         return "Rectangle{" +
